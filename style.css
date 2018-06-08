@@ -141,3 +141,7 @@ h2,h3
 	background-size: cover ;
 	background-position:center; 
 }
+
+#ios,#windows,#android,#statistique {
+    display: none;
+}
