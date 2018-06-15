@@ -225,6 +225,45 @@ Après tous ces changements, Microsoft décide de repartir de zéro pour créer 
             Outils
 		</h3>
         <p>
+Déployer des applications Windows Phone 8.1 avec l'outil de déploiement de l'application
+
+ 
+S'applique uniquement à Windows Phone
+Vous pouvez déployer des applications Windows Phone sur l'émulateur ou sur un téléphone à partir de Visual Studio. Vous pouvez également déployer des applications à l'aide de l'outil de déploiement de l'application. Cet outil est installé lorsque vous installez les outils de développement Windows Phone.
+L'outil Déploiement de l'application a une version autonome (appdeploy.exe) et une version en ligne de commande (appdeploy.cmd). L'outil en ligne de commande vous permet de déployer une application à partir d'un script ou d'une application personnalisée.
+Dans cette rubrique
+Déploiement d'une application avec l'outil de déploiement de l'application
+Pour déployer une application avec l'outil de déploiement de l'application
+Déploiement d'une application à partir de l'invite de commandes
+Pour déployer une application à partir de l'invite de commandes
+Syntaxes et options de déploiements de ligne de commande
+Exemples de déploiements de ligne de commande
+Déploiement d'une application avec l'outil de déploiement de l'application
+Pour déployer une application avec un outil autonome, utilisez l'outil de déploiement de l'application (appdeploy.exe). Cet outil est installé lorsque vous installez les outils de développement Windows Phone.
+Pour déployer une application avec l'outil de déploiement de l'application
+Générez et empaquetez votre application.
+Si vous déployez votre application vers un appareil, assurez-vous que ce dernier est enregistré et connecté.
+Dans l'écran de démarrage de votre ordinateur, recherchez l'outil Déploiement de l'application.
+Vous pouvez également exécuter l'outil à partir de l'emplacement suivant :
+C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Tools\AppDeploy\AppDeploy.exe
+Exécutez l'outil.
+Comme illustré dans la capture d'écran suivante, l'outil démarre.
+Outil de déploiement d'application pour applications Windows Phone
+Dans la zone de liste déroulante Cible, choisissez Appareil ou l'une des options d'émulateur.
+Dans le champ Application, cliquez sur Parcourir et recherchez le fichier de package à déployer.
+Cliquez sur Déployer.
+Si le déploiement réussit, le champ Statut affiche Déploiement terminé.
+Déploiement d'une application à partir de l'invite de commandes
+Utilisez la version en ligne de commande de l'outil de déploiement d'application (appdeploycmd.exe) pour déployer une application à partir d'une invite de commandes. L'outil en ligne de commande vous permet de déployer une application à partir d'un script ou d'une application personnalisée.
+Pour déployer une application à partir de l'invite de commandes
+Générez et empaquetez votre application.
+Si vous déployez votre application vers un appareil, assurez-vous que ce dernier est enregistré et connecté.
+Ouvrez une fenêtre d'invite de commandes.
+Si la variable d'environnement PATH n'inclut pas le chemin d'accès à AppDeployCmd.exe, accédez au dossier suivant.
+C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Tools\AppDeploy
+Exécutez AppDeployCmd.exe avec les options décrites dans le tableau suivant.
+
+
             
         </p>
         <h3>
