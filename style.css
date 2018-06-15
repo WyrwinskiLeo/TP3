@@ -2,30 +2,38 @@ body
 {
 	padding: 0;
 	margin: 0 ;
-	background-image: url('ronds.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover ;
+	background-image: url('pattern.jpg');
+	background-repeat: repeat;
 	background-position:center; 
 }
+
+h1,h2,h3,h4,h5,h6
+{
+	margin: 0 0 .5em;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
 #container
 {
 	padding: 0;
 	margin: 0 ;
-#	background: #fff;
+	
 	font-family: sans-serif;
 }
 
 #header
 {
 	margin: 0;
-	padding: 20px;
-	background: #ccc;
-	height:50px;
+	padding: 40px;
+	height:40px;
+    text-align: center;
 	background-image: url('haut.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
+    color: white;
+    
 }
 
 #header h1 { margin: 0; }
@@ -68,13 +76,10 @@ body
 	padding: 0%;
 	margin: 1%;
 	width: 64%;
-	background-color: #f4fcff;
-	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	background-color: white;
+	border: 1px solid black;
+	box-shadow: 5px 3px 3px ;
+    border-radius: 10px 10px 10px;
 }
 
 #edito h2
@@ -94,12 +99,8 @@ div.element
 	margin: 1%;
 	padding: 0%;
 	background-color: #f4fcff;
-	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	border: 1px solid black;
+	box-shadow: 5px 3px 3px;
 }
 
 div.element img
