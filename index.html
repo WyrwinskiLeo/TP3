@@ -8,35 +8,36 @@
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 </head>
 <body>
-<div id="container">
-	<div id="header">
+    <div id="header">
 		<h1>
-			Le développement Des Applications Mobiles
+			Le Développement Des Applications Mobiles
 		</h1>
 	</div>
+<div id="container">
+
 
 	<div id="edito">
 		<h2>
 			Introduction
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+			Avec l'évolution de la technologie en matière de smartphone, différents sytème d'exploitation ont vu le jour. Mais aujourd'hui, dans le monde très fourni de l'application, trois principaux systèmes d'exploitation se concurencent. Android domine le marché, en effet il est le plus utilisé depuis bien longtemps (85.1% en 2017), il est suivi par le système d'exploitation d'Apple: IOS (18% en 2017) et parmis rares autres systèmes qui essayent de se faire une place entre ces deux géants, nous retenons celui de microsoft: windows phone (0.4% en 2017). 
 		</p>
 		<p>
-			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+			Ces trois systèmes cachent leur secret que ce soit dans leur histoire ou dans leur code, notre équipe s'est chargé de tout détaillé pour mieux comprendre ce monde fascinant du dévoloppement d'application.
 		</p>
 		
 	</div>
-	
+	<input type="button" value="IOS" id="boutonwindows" onclick="IOS();" >
+    <input type="button" value="Android" id="boutonwindows" onclick="android();" >
+    <input type="button" value="Windows" id="boutonwindows" onclick="windows();" >
+    <input type="button" value="statistique" id="boutonwindows" onclick="statistique();" >
 	<div class="element">
-		<h2>
-			Article 1 !!
-		</h2>
-		<p>
-		</p>
+		<img src="mobileos.png">
 	</div>
-
+<div id="ios">
 	<div class="element">
+        
 		<h2>
 			IOS
 		</h2>
@@ -44,23 +45,68 @@
             Histoire
 		</h3>
         <p>
-            
+            De la famille Unix, le système d'exploitation hybride iOS est né <b>le 29 juin 2007.</b> Ce système d'exploitation est multilingue (40 langues) et a été créé par Apple. On le retrouve donc sur iPhone, iPad et iPod touch. 
+        </br>
+Chaque année, lors des mises à jour, Apple apporte des modifications plus ou moins importantes à l'interface d'iOS (page d'accueil, police d'écriture, spotlight et widgets, barre d'état...). Cette démarche est automatisée et ne demande quasiment pas d'intervention de l'uttilisateur.
+    </br>
+    En quelques chiffres : </br>
+- depuis son lancement, c'est pas moins d'<b>un milliard d'iPhones</b> qui ont été vendus. </br>
+- Apple à cumulé un chiffre d'affaire de plus de <b>552.6 milliards d'euros</b> de 2007 à 2016. </br>
+- La part de chiffre d'affaire d'Apple directement tirée de seule la vente des iPhones est de <b>63.5%</b>.
         </p>
         <h3>
-            Outils
+            Pour coder une application iOs, il faut : 
+		</h3>
+        <p>
+            <ul>
+                <li>Maîtriser Xcode <br> Xcode est l'environnement de programmation pour toutes les applications iOs</li>
+                <li>Avoir un ordinateur iOs (iMac) <br>Il n'existe aucune solution pour utiliser Xcode sous Windows ou Linux.</li>
+                <li>Posséder un bon éditeur de texte type Brackets ou SublimeText ainsi qu'un programme de création d'image vectorielle type Illustrator</li>
+                <li>Maîtriser le langage de programmation Objective -C ou celui qui là suivit, Swift, qui est plus moderne et a une syntaxe plus simple</li>
+                <li>Avoir un compte de développeur sur iOs Dev Center (payant : 99$ par an)</li>
+                <li>Penser son design, ses fonctionnalités, son ergonomie... pour une réussite de l'application</li>
+            </ul>
+        </p>
+        <h3>
+            <h3>
+                L'App Store 
+            </h3>
+            <p>
+                    L'App Store est un magasin d'applications distribué par Apple sur les appareils mobiles fonctionnant sous iOS (iPod touch, iPhone et iPad) depuis le 11 juillet 2008.
+                    Ce logiciel s'intègre dans le service iTunes Store et permet de télécharger des applications tierces pour l'iPod touch, l'iPhone et l'iPad, certaines d'entres elles sont payantes mais d'autres sont également gratuites.
+            </p>
+            <ul>
+                    <li><strong>iTunes</strong></li>
+                    <p>
+                            Dans iTunes, l'App Store vient s'ajouter aux services déjà présents sur la plateforme et propose la même présentation que pour la musique. Par exemple : un top 25 des applications les plus téléchargées du moment, une sélection par catégories d'applications,, etc. 
+                            Il est également possible de donner son avis sur les applications via un formulaire spécial.
+                    </p>
+    
+                    <li><strong>iPhone, iPod touch ou iPad</strong></li>
+                    <p>Par rapport à iTunes, les fonctionnalités sont plus simplifiées et adaptées à l'interface multitouch de l'appareil :</p>
+                    <p>L'App Store propose cinq onglets :
+                            <ul>
+                                <li><strong>Sélection</strong> : Tout comme dans iTunes, cet onglet propose la sélection d'applications d'Apple.</li><br>
+                                <li><strong>Catégories</strong> : classe les applications en 20 thèmes selon leur utilité</li><br>
+                                <li><strong>Top 25</strong> : affiche deux classements des 25 applications les plus téléchargées</li><br>
+                                <li><strong>Recherche</strong> : est un module qui permet de rechercher une application en entrant par exemple son titre ou l'identité de son développeur.</li><br>
+                                <li><strong>Mises à jour</strong> : à chaque accès à cet onglet, l'appareil recherche automatiquement des mises à jour pour les applications présentes sur l'iPhone, l'iPod touch ou l'iPad.</li><br>
+                            </ul>
+                    </p>
+    
+    
+                </ul>
+            
+            <p>Depuis le lancement de l’App Store il y a neuf ans, des millions d’applications ont été téléchargées des milliards de fois. </p>
 		</h3>
         <p>
             
         </p>
-        <h3>
-            ...
-		</h3>
-        <p>
-            
-        </p>
+            </div>
 	</div>
-	
+	<div id="android">
     <div class="element">
+        
 		<h2>
 			Android
 		</h2>
@@ -68,23 +114,63 @@
             Histoire
 		</h3>
         <p>
-            
+            1998-2005
+<br>
+L’histoire Android contrairement à ce que beaucoup pourraient le croire, elle a débuté en 1998.
+
+Mais jusqu’au rachat en 2005 par Google, la start-up américaine était spécialisée dans le développement de logiciels pour les mobiles.
+2005-2018
+<br>
+Mais en 2005 Google a décidé qu’Android devienne le nom d’une solution logicielle, pour nos mobiles. Qui avec le temps est également devenue une solution pour tablettes, montres connectées, smart TV et bien plus encore…
+
+Mais Google n’est pas seul derrière le projet Android. Si Google s’est occupé du logiciel il lui fallait un support matériel pour accueillir son système d’exploitation. C’est pour cela qu’il s’est associé à de grands groupes en créant l’Open Handset Alliance en novembre 2007. C’est un consortium d’entreprise du domaine de la télécom( par exemple Bouygues Télécom). Ainsi que des constructeurs tels que Samsung Electronics, LG Electronics, etc. Des fabricants de semi-conducteur comme Intel ou Nvidia, et des sites Web tels qu’eBay.
         </p>
+          <br>      
+   <p>Source : <a href="https://conciergeriedugeek.fr/lhistoire-dandroid/">L'histoire d'Android</a> </p>  
         <h3>
-            Outils
+            Android, ses outils.
 		</h3>
         <p>
-            
+            Le langage de programmation Java a été choisi par Google pour créer les applications Android. Outre Java, le métalangage XML est utilisé pour la conception d'interfaces. Pour créer des applications, vous pouvez utiliser le kit de développement d'Android : <a href="https://developer.android.com/studio/">Android Studio</a>.
+            <br> <br>
+            Le kit est un ensemble d'outils qui inclut un débogueur et des bibliothèques logicielles. Avec Android, les changements sont fréquents. Chaque année, Google lance une nouvelle version de son système opérationnel. L'avant-dernière, Oreo, et la dernière Popcorn, gagnent de plus en plus d'utilisateurs. Les versions plus anciennes perdent progressivement du terrain. Cependant, pour un débutant, l'idée de devoir apprendre tout un langage pour créer une simple application pour être décourageante. C'est pourquoi nous vous conseillons de vous lancer dans la programmation en faisant usage de ces quelques outils de développement. Ils vous permettront de créer une application Android en toute simplicité, juste avec des notions basiques en programmation. Certes, vous n’obtiendrez pas de résultats bien professionnels, mais ce sera déjà un bon début. 
+            <br> <br>
+            Voici donc 8 outils pour créer une application Android sans Java :
+            <br><br>
+             <a href="https://www.b4x.com/">Basic 4 Android</a>
+            <br><br>
+             <a href="http://www.monodevelop.com/">MonoDevelop</a>
+            <br><br>
+             <a href="http://www.appinventor.org/">App Inventor</a>
+            <br><br>
+             <a href="https://livecode.com/">Livecode</a>
+            <br><br>
+             <a href="https://www.adobe.com/fr/products/indesign.html">Indesign CC</a>
+            <br><br>
+             <a href="https://www.w3schools.com/html/default.asp">HTML 5</a>
+            <br><br>
+             <a href="https://www.appcelerator.com/">Appcelerator</a>
+            <br><br>
+             <a href="http://ruboto.org/">Ruboto</a>
+            <br><br>
+            Sources : <a href="https://fr.yeeply.com/blog/apprendre-developpement-android/">Yeeply : Apprendre le développement Android. Par où commencer ?"</a>
+            <br> <a href="https://fr.yeeply.com/blog/10-domaines-pour-creer-une-application-android/">Yeeply : 10 super outils pour créer une application Android sans Java"</a>
         </p>
         <h3>
-            ...
+            Google Play
 		</h3>
         <p>
-            
+            <b>Google Play</b> créé le 6 mars 2012 est une boutique d’applications sur Android, qui est née de la fusion d’Android market, de google Movies, de Google ebookstore et google music.
+Google Play est actuellement le 1er en terme de nombre d’application avec actuellement plus de 3 500 000 applications dont 58 pourcents des applications sont gratuites.
+ Leur chiffre d’affaire se fait principalement avec les application gratuite car étant plus téléchargées, en fin 2017 les applications gratuites générées 98 pourcents du chiffre d’affaire alors que le applications payante seulement 1 pourcent.
+Google Play propose en plus des applications, des musiques, des films et émissions télévisées, des livres, des jeux ainsi que des magazines, les plus polaire sont les jeux avec plus de 41,2 pourcents de toute les téléchargements.
+Google Play surpasse pour le moment le secteur des boutique d’applications, et ne cesse de performer dans celui ci.
         </p>
+            </div>
 	</div>
-    
+    <div id="windows">
     <div class="element">
+        
 		<h2>
 			Windows
 		</h2>
@@ -92,7 +178,104 @@
             Histoire
 		</h3>
         <p>
-            
+            Windows, créé pas Bill Gates, est passé par nombre de versions : Windows 1.0, 2.0, 3.0, 3.1, 95, 98 ,2000 ,ME, XP, vista, 7 ,8,10...
+Microsoft rencontre le succès avec des ventes qui s’envolent dès la première version. Sa dominance se confirme avec Windows 3.1 qui a été officiellement introduit en mars 1992.
+Windows 95, les bases du modernisme d’aujourd’hui. Windows 95 a été présenté en aout 1995 avec en poche une conception encore utilisée de nos jours. Il introduit la barre des tâches, l’explorateur de fichiers et le navigateur Internet Explorer qui font toujours partie de dernières versions de Windows ! Windows XP, encore très utilisé aujourd’hui (17 % des ordinateurs au monde !) Windows XP  a été jusqu’à présent la plus belle réussite de Microsoft. Sorti en Octobre 2001, l’OS s’est décliné en plusieurs versions (Familiale, Professionnelle …) avec différents ensembles d’applications destinés à des usages spécifiques.  Windows XP s’est accompagné d’Internet Explorer 6 et d’une nouvelle version de Windows Media Player et a proposé un look moderne, une des clés de son succès colossal.
+
+Windows Vista
+
+Si Windows XP est un succès, Windows Vista a été tout le contraire. Cette version est l’un des plus gros échecs de l’histoire de la firme. Lancé le 30 Novembre 2006, après plusieurs mois de retards et de modifications apportées au projet d’origine, il introduit une pléthore de nouvelles fonctionnalités (interface avec Aero, Windows Search, nouveaux outils multimédia, un système de réseau remanié, meilleures fonctionnalités audio et sécurité accrue) mais ses performances sont catastrophiques. La critique est vive en raison de sa gourmandise matérielle avec des exigences qui forcent les entreprises et les utilisateurs à mettre à jour leur PC. 
+Windows 7, l’OS le plus utilisé au monde.
+
+Windows 7
+
+Microsoft a alors rapidement souhaité réparer le désastre « Vista » avec Windows 7, un système d’exploitation qui au final s’attaque à fixer la plupart des désagréments de son ainé. Il joue les cartes des performances et d’une ergonomie productive.  Windows 7 est proposé en plusieurs versions. Il prend en charge le  multi-touch, offre de nouveaux effets visuels, s’accompagne de nouveaux réglages réseau, et d’une meilleure sécurité.  Windows 7 est aujourd’hui le système Windows le plus utilisé au monde. Il tourne sur plus de 50% des PC.
+Windows 8, les PCistes sont trahis.
+
+Windows 8
+
+En octobre 2012, Microsoft lance en grande pompe Windows 8 avec à la clé des changements spectaculaires mettant l’accent sur les fonctionnalités tactiles au détriment des usages clavier/souris. Microsoft fait une erreur avec un système qui n’est plus adapté aux Pcistes et à la productivité. L’interface « Modern » est source de confusion, et Windows se métamorphose en une sorte de boutique de services. La réponse est rapide avec des ventes qui ne décollent pas, un marché du PC à l’arrêt et une gronde générale.
+
+Windows 8.1 et Windows 8.1 update tentent de réparer les bourdes  en étant censés améliorer l’expérience utilisateur. Le bouton Démarrer refait son apparition dans une version peu concluante tandis que l’interface utilisateur Metro s’enrichit de fonctionnalités pour l’usage de la souris et d’un clavier.
+Windows 10, le collaboratif.
+
+WIndows 10 est actuellement un succés. Lancé gratuitement en 2015, il est l'un des OS le plus utilisé au monde.
+            Windows Mobile est le nom donné aux différentes versions de Microsoft Windows conçues pour des appareils mobiles tels que les Smartphones ou les Pocket PC. Le terme de Windows Pocket est abandonné et fait maintenant place à Windows Mobile. Cette nouvelle identité n’est pas flagrante visuellement, mais s’accompagne quand même de quelques innovations. Le Bluetooth est pleinement supporté et les fichiers midi sont enfin compatibles pour les sonneries.
+
+De son côté, le lecteur Windows Media Player se met à jour (version 9) et un nouveau jeu préinstallé fait son apparition (Jawbreaker).
+
+Cette version offre quelques possibilités nouvelles pour la prochaine génération d’assistants personnels et de Smartphones. Elle supporte le mode paysage, les écrans carrés (240x240 ou 480x480) et offre une fonction d'étirement des pixels qui permet de rendre compatibles avec l'affichage VGA (480x640) les applications développées en QVGA (240x320). Des améliorations graphiques pour une apparence en 3D sont disponibles. Le support Wi-Fi est en place avec la prise en charge du WPA.
+
+Une mise à jour de la version Windows Mobile 2003, intitulée Windows Mobile 2003 SE (pour Second Edition) a précédé la version suivante de Windows Mobile (la 5.0)
+
+Version répondant au nom de code Magneto1, lancée le 9 mai 2005. C'est l'évolution de Pocket PC, lui-même évolution de Windows CE. Il s'agit en fait de Windows CE 5.0 fonctionnant avec .NET.
+
+Vient ensuite l’amélioration considérable de la batterie. Dans les précédentes versions, l’ensemble du système était nécessairement stocké dans la mémoire RAM, volatile. Ce qui impliquait que jusqu’à 50% de la batterie servait à l’alimenter afin de ne pas perdre les données. Windows Mobile 5.0 résout le problème en combinant mémoire flash et RAM. Autre avantage, les données ne sont plus perdues chaque fois que la batterie est épuisée.
+
+Cet OS inclut :
+
+- Une nouvelle version de Microsoft Office nommée Office Mobile, incluant PowerPoint Mobile
+
+- Windows Media Player 10 Mobile
+
+- Une fonction d'identification de l'appelant (sur les téléphones)
+
+- Un support amélioré du Bluetooth
+
+- La compatibilité avec divers logiciels de GPS
+
+- L'amélioration des fonctionnalités de connexion à Microsoft Exchange Server, technologie "push"
+
+- Une vitesse de synchronisation améliorée de 10 à 15 % grâce à ActiveSync 4.0
+
+- L'amélioration de la gestion de l'énergie
+
+Windows Mobile 6.0 n’est sorti que presque deux ans après. Celui qui a porté le surnom de Crossbow (Windows CE 5.2) a été dévoilé le 12 février 2007 en trois versions : Standard, pour les smartphones sans écran tactile à l’image du SPV E650, Professionnel pour les Pocket PC avec fonction téléphone et Classic pour les autres. Il s’agit en réalité d’une grosse mise à jour, le système restant relativement proche de la version 5.0. Le gain le plus sensible se trouve du côté de la stabilité, bien que certaines nouveautés soient notables.
+
+L’interface bénéficie du lancement de Windows Vista, en proposant un design plus moderne. Le lecteur Windows Media Player se voit d’ailleurs muni de la même apparence que son équivalent sur PC. Le client de messagerie est enfin en mesure de lire les courriels en HTML et la sécurité des terminaux est améliorée grâce au cryptage de la carte de stockage
+
+- La possibilité de chiffrer sa carte mémoire SD
+
+- Le support de Windows Vista
+
+- L'amélioration de la vitesse de l'interface
+
+- Le téléphone par VoIP inclus
+
+- L'amélioration de la recherche dans les fichiers
+
+- Une meilleure gestion de la sécurité
+
+- La compatibilité avec l'ensemble des services Live de Microsoft
+
+- La compatibilité avec la version 2007 d'Office
+
+- La compatibilité Windows Live Messenger
+
+- La possibilité des connexions Wi-Fi, Bluetooth...
+
+- La version 10.3 de Windows Media Player (reprenant les couleurs par défaut de la version 11 pour Windows XP) - La TV en direct
+
+- La prise en charge de la lecture des courriels HTML via le client de messagerie.
+
+Mise à jour annoncée le 3 novembre 2008 par Sanjay Jha, le codirecteur de Motorola et chef de la direction des dispositifs mobiles.
+
+Mise à jour présentée officiellement par Steve Ballmer (PDG de Microsoft) lors du Mobile World Congress de Barcelone le 16 février 2009.
+
+Lancée en octobre 2009, elle tente de répondre à la lourde concurrence d’Apple et Google et force est de reconnaitre que Microsoft a déployé les grands moyens pour tenter d’y parvenir.
+
+- Internet Explorer Mobile 6.0
+
+- Widgets téléchargeables sur Windows Market Place for Mobile
+
+- Lancement de « MyPhone » en version bêta : espace de sauvegarde de 200 Mo lié à un compte Windows Live
+
+- La bibliothèque graphique GAPI (game API ; bibliothèque équivalente à DirectX sur PC) utilisant le fichier très connu gx.dll n'est plus supportée ceci ayant pour conséquence la non rétrocompatibilité de la quasi-totalité des jeux 3D disponibles sur le marché. Plusieurs mois après sa sortie, l'offre de jeux compatibles est toujours au point mort, la plupart des développeurs préférant se concentrer sur l'iphone.
+
+Toutes les applications utilisant cette bibliothèque sont également concernées. Les derniers PDA en Windows Mobile 6.5 sont commercialisés en juin 2011.
+Windows Phone
+
+Après tous ces changements, Microsoft décide de repartir de zéro pour créer un OS entièrement repensé et qui serait à terme un OS unifié pour PC, tablette et téléphone.
         </p>
         <h3>
             Outils
@@ -101,14 +284,22 @@
             
         </p>
         <h3>
-            ...
+            Windos Store
 		</h3>
         <p>
-            
+           Depuis octobre 2017 ce que l'on connaisser comme étant Windows store a était renomée Microsft store.<br/>
+C'est une platforme accésible par toute les dispotifs numérique connecter a un exploiteur windows que ce sois ordinateur, téléphone ou encore tablette tout le monde peux y a accédés.<br/>
+Il est entreposée différente application, logiciel, jeux, musique, film mis par des développeurs.<br/>
+Il y a perpetuellement des mis a jours pour améliorée le sythéme et éviter de quelconque défayance du systhéme mais aussi depuis 2014 ils font attention au application malveillants et supprime donc réguliérement des applications douteuse.<br/>
+Pour pouvoir envisager d'utiliser le Microsft store il faut obligatoirement avoir un conte microsoft.<br/>
+Entre 2010 et 2015 on a put observer une augmentation exponentiel du nombre d'application disponible, nous sommes passer de 1 000 a 700 000 application en libre téléchargement.<br/>
+Bien sur comme toute les applications ou logiciel certaine gratuite et d'autre payante.<br/> 
         </p>
+            </div>
 	</div>
-
+<div id="statistique">   
     <div class="element">
+        
 		<h2>
 			Statistiques
 		</h2>
@@ -150,11 +341,12 @@ Cependant, l'une des évolutions à retenir promise par Android reste l'amélior
         Les possibilitées de nouveautés et d'évolution de cet OS sont encores floues, mais ne tarderont pas à être plus explicites.
         </p>
 	</div>
-	</div>
+</div>
 
 	<div id="footer">
-		Copyright © Site name, 20XX
+		Copyright © InteroTP5 1B1 2018
 	</div>
 </div>
 </body>
+    <script type="text/javascript" src="script.js"></script>
 </html>
