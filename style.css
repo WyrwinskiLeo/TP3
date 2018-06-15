@@ -90,13 +90,23 @@ h1,h2,h3,h4,h5,h6
 
 div.element
 {
-height: auto;
+  height: auto;
 	float: left;
 	padding: 40px;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 	background-color: white;
 	border: 1px solid black;
-    border-radius: 5px 5px 5px;
+	box-shadow: 5px 3px 3px;
+  border-radius: 10px 10px 10px;
+}
+
+div.element img
+{
+	background-color : #fff;
+	float: right;
+	width: 90%;
+	margin: 5%;
+	border: 1px solid #000;
 }
 
 p
