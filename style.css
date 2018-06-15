@@ -5,6 +5,8 @@ body
 	background-image: url('pattern.jpg');
 	background-repeat: repeat;
 	background-position:center; 
+	text-align: center;
+	line-height: 2;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -69,14 +71,13 @@ h1,h2,h3,h4,h5,h6
 
 #edito
 {
-	height: 400px;
+	height: auto;
 	float: left;
-	padding: 20px;
+	padding: 40px;
     margin-bottom: 50px;
 	background-color: white;
 	border: 1px solid black;
-	box-shadow: 5px 3px 3px ;
-    border-radius: 10px 10px 10px;
+    border-radius: 5px 5px 5px;
     
 }
 
@@ -89,32 +90,13 @@ h1,h2,h3,h4,h5,h6
 
 div.element
 {
-    margin-right: 35px;
-    margin-bottom: 50px;
+height: auto;
 	float: left;
-	width: 31%;
-	min-width: 400px;
-	height: 500px;
-	padding: 0%;
+	padding: 40px;
+    margin-bottom: 50px;
 	background-color: white;
 	border: 1px solid black;
-	box-shadow: 5px 3px 3px;
-    border-radius: 10px 10px 10px;
-}
-
-div.element img
-{
-	background-color : #fff;
-	float: right;
-	width: 40%;
-	margin: 5%;
-	border: 1px solid #000;
-	padding: 5px 5px 20px 5px;
-	transform:rotate(7deg);
-	-ms-transform:rotate(7deg); /* IE 9 */
-	-moz-transform:rotate(7deg); /* Firefox */
-	-webkit-transform:rotate(7deg); /* Safari and Chrome */
-	-o-transform:rotate(7deg); /* Opera */
+    border-radius: 5px 5px 5px;
 }
 
 p
