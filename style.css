@@ -5,6 +5,8 @@ body
 	background-image: url('pattern.jpg');
 	background-repeat: repeat;
 	background-position:center; 
+	text-align: center;
+	line-height: 2;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -69,7 +71,7 @@ h1,h2,h3,h4,h5,h6
 
 #edito
 {
-	height: 400px;
+	height: auto;
 	float: left;
 	padding: 20px;
   margin-bottom: 50px;
@@ -88,13 +90,10 @@ h1,h2,h3,h4,h5,h6
 
 div.element
 {
-    margin-right: 35px;
-    margin-bottom: 50px;
+  height: auto;
 	float: left;
-	width: 31%;
-	min-width: 400px;
-	height: 500px;
-	padding: 0%;
+	padding: 40px;
+  margin-bottom: 50px;
 	background-color: white;
 	border: 1px solid black;
 	box-shadow: 5px 3px 3px;
